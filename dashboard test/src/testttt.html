@@ -1,0 +1,346 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <style>
+        .dark-mode {
+            background-color: rgb(31, 31, 31);
+            color: white;
+        }
+
+        .dark-mode .bg-white {
+            background-color: #1a1a1ac6 !important;
+        }
+
+        .dark-mode {
+            color: #cccccc !important;
+        }
+    </style>
+
+
+</head>
+
+<body class="flex  bg-[#0000001A]  " id="mainBody">
+
+    <div class="w-[240px] h-[1804px] mt-5  hidden sm:block">
+        <img src="img/Frame.png" alt="">
+        <div class="flex font-medium text-lg bg-[#0000001A] w-[208px] h-[56px] rounded-2xl pt-3 pl-4 gap-3 mt-3"
+            onclick="window.location.href='test.html'">
+            <div><img src="img/Icon.png" alt=""></div>
+            <h1>Overview</h1>
+        </div>
+        <div
+            class="flex font-medium text-lg  w-[208px] h-[56px] rounded-2xl pt-3 pl-4 gap-3 mt-3  hover:bg-[#0000001A] transition duration-300 cursor-pointer">
+            <div><img src="img/Icon.png" alt=""></div>
+            <h2 class="hover:-translate-x-2 transition-transform duration-300">eCommerce</h2>
+        </div>
+        <div
+            class="flex font-medium text-lg  w-[208px] h-[56px] rounded-2xl pt-3 pl-4 gap-3 mt-3 hover:bg-[#0000001A] transition duration-300 cursor-pointer">
+            <div><img src="img/Icon.png" alt=""></div>
+            <h2 class="hover:-translate-x-2 transition-transform duration-300">Projects</h2>
+        </div>
+        <div
+            class="flex font-medium text-lg  w-[208px] h-[56px] rounded-2xl pt-3 pl-4 gap-3 mt-3 hover:bg-[#0000001A] transition duration-300 cursor-pointer">
+            <div><img src="img/Icon.png" alt=""></div>
+            <h2 class="hover:-translate-x-2 transition-transform duration-300">User Profile</h2>
+        </div>
+        <div
+            class="flex font-medium text-lg  w-[208px] h-[56px] rounded-2xl pt-3 pl-4 gap-3 mt-3 hover:bg-[#0000001A] transition duration-300 cursor-pointer">
+            <div><img src="img/Icon.png" alt=""></div>
+            <h2 class="hover:-translate-x-2 transition-transform duration-300">Account</h2>
+        </div>
+        <div
+            class="flex font-medium text-lg  w-[208px] h-[56px] rounded-2xl pt-3 pl-4 gap-3 mt-3 hover:bg-[#0000001A] transition duration-300 cursor-pointer">
+            <div><img src="img/Icon.png" alt=""></div>
+            <h2 class="hover:-translate-x-2 transition-transform duration-300">Corporate</h2>
+        </div>
+        <div
+            class="flex font-medium text-lg  w-[208px] h-[56px] rounded-2xl pt-3 pl-4 gap-3 mt-3 hover:bg-[#0000001A] transition duration-300 cursor-pointer">
+            <div><img src="img/Icon.png" alt=""></div>
+            <h2 class="hover:-translate-x-2 transition-transform duration-300">Blog</h2>
+        </div>
+        <div
+            class="flex font-medium text-lg  w-[208px] h-[56px] rounded-2xl pt-3 pl-4 gap-3 mt-355 hover:bg-[#0000001A] transition duration-300 cursor-pointer">
+            <div><img src="img/Icons.png" alt=""></div>
+            <h2 class="hover:-translate-x-2 transition-transform duration-300"> ByeWind</h2>
+        </div>
+
+    </div>
+    <div>
+        <header class=" mt-9 ml-10  hidden sm:block">
+            <div class="flex hover:-translate-x-2 transition-transform duration-300">
+                <h1 class="text-lg ml-5 hover:-translate-x-2 transition-transform duration-300">Text</h1>
+                <h1 class="text-lg ml-3 hover:-translate-x-2 transition-transform duration-300">Text</h1>
+                <h1 class="text-lg ml-3 hover:-translate-x-2 transition-transform duration-300">Text</h1>
+                <div class="w-3 ml-3 mt-1"><img class="w-1.5" src="img/Text.png" alt=""></div>
+                <h1 class="text-lg ml-1 hover:-translate-x-2 transition-transform duration-300">Text</h1>
+            </div>
+            <div class="flex pl-195 mt-[-30px]">
+                <div class="flex items-center w-72 px-3 py-2 bg-gray-100 rounded-md shadow-sm">
+                    <svg class="w-4 h-4 text-gray-500" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 104.5 4.5a7.5 7.5 0 0012.15 12.15z" />
+                    </svg>
+                    <input type="text" placeholder="Search"
+                        class="ml-2 bg-gray-100 text-sm text-gray-700 focus:outline-none flex-grow placeholder-gray-500" />
+                    <kbd class="ml-2 text-xs text-gray-500 bg-white border border-gray-300 rounded px-1">/</kbd>
+                </div>
+                <h1 class="text-lg ml-3 mt-2 hover:-translate-x-2 transition-transform duration-300">Text</h1>
+                <h1 class="text-lg ml-3 mt-2 hover:-translate-x-2 transition-transform duration-300">Text</h1>
+                <h1 class="text-lg ml-3 mt-2 hover:-translate-x-2 transition-transform duration-300">Text</h1>
+            </div>
+            <div
+                class=" ml-165 light-mode mt-[-30px] w-[100px] h-[30px] pl-3 bg-blue-500 rounded-xl transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-700 cursor-pointer">
+                <button onclick="toggleDarkMode() " class="text-white"> Dark Mode</button>
+
+
+            </div>
+
+            <script>
+                function toggleDarkMode() {
+                    document.getElementById("mainBody").classList.toggle("dark-mode");
+                }
+            </script>
+
+        </header>
+        <div class="flex mt-10 ml-20 lg:hidden">
+            <div class="mt-3 "> <img src="img/Chevron.png" alt=""></div>
+            <h1 class="text-[#007AFF] ml-3 text-4xl font-bold">Home</h1>
+            <h1 class="text-4xl font-bold ml-75">Overview</h1>
+        </div>
+        <section class="lg:ml-0 ml-7 mt-10  ">
+            <div class="flex flex-col lg:flex-row ml-10 lg:gap-10">
+                <div class="flex  lg:ml-[-10px]">
+                    <div
+                        class=" lg:w-[272px]  lg:h-[132px] bg-linear-to-t from-cyan-400  to-blue-500 w-[472px] h-[172px] rounded-2xl transform hover:scale-105 transition duration-300">
+                        <div class="flex lg:pt-4 lg:pl-6 lg:gap-22 pt-6 pl-20 gap-30">
+                            <p
+                                class="text-[#FFFFFF] lg:text-base text-2xl pt-2 hover:-translate-x-2 transition-transform duration-300">
+                                Views
+                            </p>
+                            <img class="w-20 ml-10 lg:w-auto" src="img/Icon (1).png" alt="">
+                        </div>
+
+                        <div class="flex lg:pl-6 lg:gap-18 lg:pt-3 pl-20 gap-27 pt-6">
+                            <h1
+                                class="text-[#FFFFFF] lg:text-3xl text-4xl font-semibold hover:-translate-x-2 transition-transform duration-300">
+                                7,265</h1>
+                            <p
+                                class="text-[#FFFFFF] lg:text-base text-2xl pt-2 hover:-translate-x-2 transition-transform duration-300">
+                                +11.01%</p>
+                        </div>
+
+                    </div>
+                    <div
+                        class="  lg:w-[272px]  lg:h-[132px]   ml-10 bg-gradient-to-b from-[#070707] to-[#000000aa]  w-[472px] h-[172px] rounded-2xl transform hover:scale-105 transition duration-300">
+                        <div class="flex lg:pt-4 lg:pl-6 lg:gap-22 pt-6 pl-20 gap-32">
+                            <p
+                                class="text-[#FFFFFF] lg:text-base text-2xl pt-2 hover:-translate-x-2 transition-transform duration-300">
+                                Visits</p>
+                            <img class="w-20 ml-10  lg:w-auto" src="img/Icon (2).png" alt="">
+                        </div>
+
+                        <div class="flex lg:pl-6 lg:gap-18 lg:pt-3 pl-20 gap-36 pt-6">
+                            <h1
+                                class="text-[#FFFFFF] text-4xl font-semibold hover:-translate-x-2 transition-transform duration-300">
+                                3,671</h1>
+                            <p
+                                class="text-[#FFFFFF] lg:text-base  text-2xl pt-2 hover:-translate-x-2 transition-transform duration-300">
+                                -0.03%
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" flex mt-5  lg:mt-0  lg:ml-0">
+                    <div
+                        class="  lg:w-[272px]  lg:h-[132px] bg-linear-to-t from-cyan-400 to-blue-500  w-[472px] h-[172px]  rounded-2xl transform hover:scale-105 transition duration-300">
+                        <div class="flex lg:pt-4 lg:pl-6 lg:gap-15 pt-6 pl-20 gap-17">
+                            <p
+                                class="text-[#FFFFFF] lg:text-base  text-2xl pt-2 hover:-translate-x-2 transition-transform duration-300">
+                                New
+                                Users</p>
+                            <img class="w-20 ml-10  lg:w-auto" src="img/Icon (1).png" alt="">
+                        </div>
+
+                        <div class="flex lg:pl-6 lg:gap-22 lg:pt-3 pl-20 gap-33 pt-6">
+                            <h1
+                                class="text-[#FFFFFF] text-4xl font-semibold hover:-translate-x-2 transition-transform duration-300">
+                                256</h1>
+                            <p
+                                class="text-[#FFFFFF] lg:text-base  text-2xl pt-2 hover:-translate-x-2 transition-transform duration-300">
+                                +15.03%</p>
+                        </div>
+
+                    </div>
+                    <div
+                        class=" lg:w-[272px]  lg:h-[132px]  ml-10 bg-gradient-to-b from-[#070707] to-[#000000aa]  w-[472px] h-[172px] rounded-2xl transform hover:scale-105 transition duration-300">
+                        <div class="flex lg:pt-4 lg:pl-6 lg:gap-12 pt-6 pl-20 gap-14">
+                            <p
+                                class="text-[#FFFFFF] lg:text-base text-2xl  pt-2 hover:-translate-x-2 transition-transform duration-300">
+                                Active Users</p>
+                            <img class="w-20 ml-10  lg:w-auto" src="img/Icon (1).png" alt="">
+                        </div>
+
+                        <div class="flex lg:pl-6 lg:gap-18 lg:pt-3  pl-20 gap-33 pt-6">
+                            <h1
+                                class="text-[#FFFFFF] text-4xl font-semibold hover:-translate-x-2 transition-transform duration-300">
+                                2,318</h1>
+                            <p
+                                class="text-[#FFFFFF] lg:text-base  text-2xl  pt-2 hover:-translate-x-2 transition-transform duration-300">
+                                +6.08%
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class=" lg:h-[400px]  lg:w-[1210px] lg:ml-7 bg-white rounded-xl mt-8  w-[980px] h-[422px] ml-10 ">
+                <div class="flex pt-5 hover:-translate-x-2 transition-transform duration-300 ">
+                    <div class="flex gap-8 pl-5">
+                        <h1
+                            class="text-[#AF52DE] lg:text-base text-4xl font-semibold hover:-translate-x-2 transition-transform duration-300">
+                            Users</h1>
+                        <h1
+                            class="text-[#00000066] lg:mt-0  lg:text-base mt-1 text-3xl  hover:-translate-x-2 transition-transform duration-300">
+                            Projects
+                        </h1>
+                        <h1
+                            class="text-[#00000066] lg:mt-0   lg:text-base mt-1 text-3xl  hover:-translate-x-2 transition-transform duration-300">
+                            Operating
+                            Status</h1>
+                    </div>
+                    <div class="ml-160 hidden sm:block">
+                        <img src="img/Group (2).png" alt="">
+                    </div>
+
+                </div>
+                <div><img class="lg:w-auto w-[1500px] h-[300px] mt-9" src="img/Frame (1).png" alt=""></div>
+            </div>
+            <div class="lg:flex-row flex flex-col lg:gap-15   ">
+
+                <div class="bg-white w-[980px] h-[422px]   lg:h-[280px] lg:w-[560px] ml-10 lg:ml-7 rounded-2xl mt-8">
+                    <div class="flex justify-between pl-10 pr-5">
+                        <h1
+                            class="text-[#007AFF] text-4xl pt-5 font-semibold lg:text-xl hover:-translate-x-2 transition-transform duration-300">
+                            Device Traffic</h1>
+                        <div class="pt-4 pl-4 hidden sm:block">
+                            <img src="img/Button (1).png" alt="">
+                        </div>
+                    </div>
+                    <div class="pt-10 ml-7 ">
+                        <img class="lg:w-auto lg:h-auto w-[900px] h-[300px] " src="img/Chart.png" alt="">
+                    </div>
+                </div>
+
+                <div class="bg-white w-[980px] h-[422px]   lg:h-[280px] lg:w-[560px] ml-10 lg:ml-7 rounded-2xl mt-8">
+                    <div class="flex justify-between pl-10 pr-5">
+                        <h1
+                            class="text-[#34C759] text-4xl pt-5 font-semibold lg:text-xl hover:-translate-x-2 transition-transform duration-300">
+                            Location Traffic</h1>
+                        <div class="pt-4 pl-4 hidden sm:block">
+                            <img src="img/Button (1).png" alt="">
+                        </div>
+                    </div>
+                    <div class="pt-10 p-5">
+                        <img class="lg:w-auto lg:h-auto w-[900px] h-[300px] " src="img/Chart (1).png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class=" bg-white rounded-xl lg:ml-7 lg:w-[1210px]  mt-8 lg:h-[392px]  w-[980px] h-[422px] ml-10  ">
+                <div class="pl-10 pt-5 flex  flex-col lg:flex-row gap-4 lg:gap-170">
+                    <h1
+                        class="text-[#FF3B30] text-4xl pt-1 font-semibold lg:text-xl hover:-translate-x-2 transition-transform duration-300">
+                        Product Traffic
+                    </h1>
+                    <div>
+                        <img class="w-90 lg:w-auto" src="img/Group (3).png" alt="">
+                    </div>
+                </div>
+                <div class="pt-10 lg:ml-10">
+                    <img src="img/Frame (2).png" alt="">
+                </div>
+            </div>
+            <div class="bg-white mt-10 rounded-2xl lg:h-[452px] w-[980px] h-[522px] ml-10 lg:ml-8 lg:w-[1210px]    ">
+                <div class="flex  pl-10 mt-8 pt-5  gap-255 ">
+                    <h1
+                        class="text-[#00C7BE] text-4xl font-semibold lg:text-xl hover:-translate-x-2 transition-transform duration-300">
+                        Projects
+                    </h1>
+                    <div><img src="img/Button (1).png" alt=""></div>
+                </div>
+                <div class="flex  mt-4">
+                    <ul class="w-[520px] h-[52px] lg:w-[390px] l pl-10">
+                        <li class="text-[#00000066] h-[52px]  mt-3 text-2xl lg:text-base ">Manager</li>
+                        <li class="flex  h-[52px] bg-[#00000008]  rounded-l-2xl pt-3">
+                            <div><img src="img/Icons.png" alt=""></div>
+                            <h2 class="text-xl lg:text-base">ByeWind</h2>
+                        </li>
+                        <li class="flex h-[52px] bg-[#00000004]  rounded-l-2xl mt-3 pt-3">
+                            <div><img src="img/Icons.png" alt=""></div>
+                            <h2 class="text-xl lg:text-base">Natali Craig</h2>
+                        </li>
+                        <li class="flex h-[52px] bg-[#00000008]  rounded-l-2xl mt-3 pt-3 ">
+                            <div><img src="img/Icons.png" alt=""></div>
+                            <h2 class="text-xl lg:text-base">Drew Cano</h2>
+                        </li>
+                        <li class="flex h-[52px] pt-3 bg-[#00000004]  rounded-l-2xl mt-3">
+                            <div><img src="img/Icons.png" alt=""></div>
+                            <h2 class="text-xl lg:text-base">Orlando Diggs</h2>
+                        </li>
+                        <li class="flex h-[52px] bg-[#00000008]  rounded-l-2xl mt-3 pt-3 ">
+                            <div><img src="img/Icons.png" alt=""></div>
+                            <h2 class="text-xl lg:text-base">Andi Lane</h2>
+                        </li>
+                    </ul>
+                    <ul class="w-[520px] h-[52px] lg:w-[390px] hidden sm:block">
+                        <li class="text-[#00000066] h-[52px]  mt-3">Date</li>
+                        <li class="h-[52px] bg-[#00000008]   pt-3 ">Jun 24, 2025</li>
+                        <li class="h-[52px] bg-[#00000004]  mt-3 pt-3">Mar 10, 2025</li>
+                        <li class="h-[52px] bg-[#00000008]   mt-3 pt-3">Nov 10, 2025</li>
+                        <li class="h-[52px] bg-[#00000004]  mt-3 pt-3">Dec 20, 2025</li>
+                        <li class="h-[52px] bg-[#00000008]  mt-3 pt-3 ">Jul 25, 2025</li>
+                    </ul>
+                    <ul class="w-[390px] lg:w-[390px] h-[52px]">
+                        <li class="text-[#00000066]  h-[52px]  mt-3 text-2xl lg:text-base">Status</li>
+                        <li class="h-[52px] bg-[#00000008]  rounded-r-2xl pt-3">
+                            <p class=" bg-[#af52de68] text-[#AF52DE] w-35 h-8 rounded-2xl mt-[-2px] pl-8 pt-0.5">In
+                                Progress</p>
+                        </li>
+                        <li class="h-[52px] bg-[#00000004] rounded-r-2xl mt-3 pt-3">
+                            <p class="bg-[#34c75952] text-[#34C759]  w-35 h-8 rounded-2xl  mt-[-2px] pl-8 pt-0.5">
+                                Complete</p>
+                        </li>
+                        <li class="h-[52px] bg-[#00000008] rounded-r-2xl mt-3 pt-3 ">
+                            <p class="bg-[#007bff51] text-[#007AFF] w-35 h-8 rounded-2xl  mt-[-2px] pl-8 pt-0.5 ">
+                                Pending</p>
+                        </li>
+                        <li class="h-[52px] bg-[#00000004] rounded-r-2xl mt-3 pt-3">
+                            <p class="text-[#FFCC00] bg-[#ffcc0050] w-35 h-8 rounded-2xl  mt-[-2px] pl-8 pt-0.5">
+                                Approved</p>
+                        </li>
+                        <li class="h-[52px] bg-[#00000008]  rounded-r-2xl mt-3 pt-3 ">
+                            <p class="text-[#00000066] bg-[#0000003d] w-35 h-8 rounded-2xl  mt-[-2px] pl-8 pt-0.5">
+                                Rejected</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hidden sm:block mt-8  ">
+                <p class="ml-10">© 2025 SnowUI</p>
+                <h1 class="text-lg mt-[-20px] ml-220">Text</h1>
+                <h1 class="text-lg mt-[-28px] ml-240">Text</h1>
+                <h1 class="text-lg  mt-[-28px] pb-5 ml-260">Text</h1>
+            </div>
+
+        </section>
+    </div>
+</body>
+
+</html>
